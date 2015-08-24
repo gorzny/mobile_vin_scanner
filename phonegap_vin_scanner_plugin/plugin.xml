@@ -50,7 +50,7 @@ id reference into Scanner.java before building their projects.
       </activity>
     </config-file>
     <!-- copy assets resources -->
-    <source-file src="phonegap_android/assets/www/js/barcodescanner.js" target-dir="assets/www"/>
+    <asset src="www/js/b4hvinscanner.js" target="js/b4hvinscanner.js"/>
     <!-- copy Bees4honey Lib resources -->
     <source-file src="phonegap_android/libs/armeabi/libb4hvinscanner.so" target-dir="libs/armeabi" />
     <source-file src="phonegap_android/libs/armeabi-v7a/libb4hvinscanner.so" target-dir="libs/armeabi-v7a" />
